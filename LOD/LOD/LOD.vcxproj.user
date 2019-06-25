@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>b C:\Users\skong\source\repos\LOD\LOD\x64\Debug E:\cg\code\LOD\benchmark\obj\output 0.3 -n</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>../x64/debug</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>b C:\Users\skong\source\repos\LOD\LOD\x64\Release E:\cg\code\LOD\benchmark\obj\output 0.3 -n</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\x64\Release</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>$(TargetPath)</LocalDebuggerCommand>
+  </PropertyGroup>
+</Project>

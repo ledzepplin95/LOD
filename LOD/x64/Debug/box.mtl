@@ -1,0 +1,16 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 18.06.2019 19:08:44
+
+newmtl 03___Default
+	Ns 9.99999905
+	Ni 1.50000000
+	d 1.00000000
+	Tr 0.00000000
+	Tf 1.00000000 1.00000000 1.00000000 
+	illum 2
+	Ka 0.58823532 0.58823532 0.58823532
+	Kd 0.58823532 0.58823532 0.58823532
+	Ks 0.00000000 0.00000000 0.00000000
+	Ke 0.00000000 0.00000000 0.00000000
+	map_Ka C:\Users\skong\source\repos\LOD\LOD\x64\Debug\cube.jpg
+	map_Kd C:\Users\skong\source\repos\LOD\LOD\x64\Debug\cube.jpg
